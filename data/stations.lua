@@ -1,14 +1,6 @@
 --[[
     R4x Gas Station - Station Locations
     Define gas and electric station locations here
-    
-    Structure:
-    [vec3(x, y, z)] = {
-        fType = 'gas' or 'electric',
-        GasStation_Name = "Display Name",
-        Zone_Street_Name = "Location Description",
-        PumpObjectsCoords = { vector3(x, y, z), ... }
-    }
 ]]
 
 GasStations = {
@@ -52,16 +44,6 @@ GasStations = {
     -- ============================================================
     -- ELECTRIC CHARGING STATIONS
     -- ============================================================
-    
-    -- Tesla Supercharger - Paleto Bay
-    [vec3(153.4138, 6592.721, 31.3449)] = {
-        fType = 'electric',
-        GasStation_Name = 'Tesla Supercharger',
-        Zone_Street_Name = 'Paleto Bay, Paleto Blvd',
-        PumpObjectsCoords = {
-            vector3(153.4138, 6592.721, 31.8449),
-        }
-    },
     
     -- Tesla Supercharger - Grand Senora Desert
     [vec3(2697.205, 3277.662, 54.74057)] = {
